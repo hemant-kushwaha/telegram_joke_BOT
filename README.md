@@ -108,10 +108,5 @@ Want to improve this bot? Feel free to fork the repository and submit pull reque
 
 ---
 
-## 📄 License
-This project is licensed under the **MIT License**.
-
----
-
 🎭 **Enjoy using Telegram Joke Bot!** 🤖🚀
 
