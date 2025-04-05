@@ -20,10 +20,10 @@ const response = await axios.get('https://v2.jokeapi.dev/joke/Programming');
 
 console.log(response);
 
-const setup = response.data.joke;
-// const punchline = response.data.delivery;
+const setup = response.data?.setup || response.data?.joke;
+const punchline = response.data?.delivery || ""
 
-bot.sendMessage(Option.chat.id,setup);
+bot.sendMessage(Option.chat.id,setup + "\n" + punchline);
 
 
 });
